@@ -1,7 +1,7 @@
 
 output "alias" {
   description = "The alias created for the KMS key"
-  value       = aws_kms_alias.key_alias.name
+  value       = aws_kms_alias.alias.name
 }
 
 output "arn" {
