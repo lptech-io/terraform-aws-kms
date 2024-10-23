@@ -29,6 +29,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_key_name"></a> [key\_name](#input\_key\_name) | The name of the KMS key | `string` | n/a | yes |
+| <a name="input_multi_region"></a> [multi\_region](#input\_multi\_region) | Set key as multi-region | `bool` | `false` | no |
 
 ## Outputs
 

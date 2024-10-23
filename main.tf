@@ -17,6 +17,7 @@ resource "aws_kms_key" "key" {
   description             = "${var.key_name} KMS key"
   deletion_window_in_days = 30
   enable_key_rotation     = true
+  multi_region            = var.multi_region
   policy                  = data.aws_iam_policy_document.base_policy.json
 }
 
